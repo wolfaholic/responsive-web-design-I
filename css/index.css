@@ -73,15 +73,17 @@ h1, h2, h3, h4, h5 {
 /* Navigation Section */
 nav {
     display: flex;
-	justify-content: space-evenly;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
 }
 
 
-nav .links {
+.links {
 	display: flex;
     flex-direction: row;
     justify-content: space-between;
-	margin: 20px 0;
 	font-family: Lobster;
 	font-size: 20px;
 }
